@@ -30,10 +30,10 @@
 // setInterval(Carrossel2, 2000);
 
 const projetos = [
-    { imgSrc: '/IMG/2.png', github: '#', site: '#' },
-    { imgSrc: '/IMG/3.png', github: '#', site: '#' },
-    { imgSrc: '/IMG/1.png', github: '#', site: '#' },
-    { imgSrc: '/IMG/COPIAdacopiaRA.jpg', github: '#', site: '#' },
+    { imgSrc: 'IMG/2.png', github: '#', site: '#' },
+    { imgSrc: 'IMG/3.png', github: '#', site: '#' },
+    { imgSrc: 'IMG/1.png', github: '#', site: '#' },
+    { imgSrc: 'IMG/COPIAdacopiaRA.jpg', github: '#', site: '#' },
     
 ];
 
@@ -79,7 +79,7 @@ const ArrayDeItems = [
     { imgSrc: 'IMG/EXCEL.png', h3: 'EXCEL' },
     { imgSrc: 'IMG/PPTX.png', h3: 'POWERPOINT' },
     { imgSrc: 'IMG/MONTAGEM.png', h3: 'MONTAGEM E MANUTENÇÃO PREVENTIVA DE COMPUTADORES' },
-    { imgSrc: 'IMG/REDES.png', h3: 'INSTALAÇÃO, CONFIGURAÇÃO E GERENCIAMENTO DO WINDOWS E REDES' },
+    { imgSrc: 'IMG/REDES.png', h3: 'GERENCIAMENTO DO WINDOWS E REDES' },
     { imgSrc: 'IMG/FORMADO02.png', h3: 'FORMADO EM SUPORTE TI' },
     { imgSrc: 'IMG/ESPANHOL.png', h3: 'INGLÊS BÁSICO' }
 ];
