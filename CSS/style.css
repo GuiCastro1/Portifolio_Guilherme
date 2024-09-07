@@ -35,7 +35,7 @@ h2 {
     /* 20px -> 1.25rem */
 }
 
-.teste{
+.teste {
     display: none;
 }
 
@@ -274,7 +274,7 @@ header {
     width: 170px;
     padding: 15px;
     margin: 5px;
-    
+
 }
 
 .ItemsCompetencias H3 {
@@ -287,23 +287,6 @@ header {
     width: 90px;
     height: 90px;
 }
-
-/* .U{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 30px;
-margin: 10%;
-}
-.U P{
-    font-size: x-large;
-    color: var(--Texto-Branco);
-}
-.U IMG{
-    height: 200px;
-} */
-
 
 footer {
     text-align: center;
@@ -319,42 +302,27 @@ footer p {
     /* 5px -> 0.3125rem */
 }
 
-/*
 
-Tablets (entre 481px e 768px)
-@media (min-width: 481px) and (max-width: 768px) {
- 
-}
-*/
-/* Laptops pequenos (entre 769px e 1024px) */
-/* @media (min-width: 769px) and (max-width: 1024px) {
-   
-} */
-
-/* Desktops (acima de 1025px) */
 @media (min-width: 1025px) {
-   
 
-    
-
-    header  {
+    header {
         background-image: url("../IMG/smooth-white-wave-background_52683-55288.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
         display: flex;
         flex-direction: row-reverse;
-        justify-content: space-evenly;
         align-items: center;
         height: 100vh;
     }
 
-.teste{
-    display: block;
-}
-    .Foto{
-        height: 300px;
-        width: 300px;
+    .teste {
+        display: block;
+    }
+
+    .Foto {
+        height: 500px;
+        width: 500px;
         border-radius: 0.625rem 1.25rem 1.25rem 0.625rem;
         border: 0.125rem solid;
     }
@@ -370,8 +338,6 @@ Tablets (entre 481px e 768px)
     .Celular {
         display: none;
     }
-
-   
 
     .links {
         height: 80vh;
