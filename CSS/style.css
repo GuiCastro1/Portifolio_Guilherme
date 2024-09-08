@@ -321,8 +321,8 @@ footer p {
     }
 
     .Foto {
-        height: 500px;
-        width: 500px;
+        height: 300px;
+        width: 300px;
         border-radius: 0.625rem 1.25rem 1.25rem 0.625rem;
         border: 0.125rem solid;
     }
