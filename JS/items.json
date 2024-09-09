@@ -1,0 +1,72 @@
+[
+    {
+        "imgSrc": "IMG/HTML.png",
+        "h3": "HTML",
+        "alt": "Icone do Html"
+    },
+    {
+        "imgSrc": "IMG/CSS.png",
+        "h3": "CSS",
+        "alt": "Icone do CSS"
+    },
+    {
+        "imgSrc": "IMG/JS.png",
+        "h3": "JAVASCRIPT",
+        "alt": "Icone do JavaScript"
+    },
+    {
+        "imgSrc": "IMG/GIT.png",
+        "h3": "GIT GIT-HUB",
+        "alt": "Icone do git"
+    },
+    {
+        "imgSrc": "IMG/SKILLS.png",
+        "h3": "COMUNICAÇÃO E TRABALHOS EM EQUIPE",
+        "alt": "Icone de COMUNICAÇÃO E TRABALHOS EM EQUIPE"
+    },
+    {
+        "imgSrc": "IMG/FORMADO.png",
+        "h3": "FORMADO EM DESENVOLVIMENTO WEB",
+        "alt": "Icone de FORMADO EM DESENVOLVIMENTO WEB"
+    },
+    {
+        "imgSrc": "IMG/ESPANHOL.png",
+        "h3": "ESPANHOL INTERMEDIARIO",
+        "alt": "Icone de Espanhol intermediario"
+    },
+    {
+        "imgSrc": "IMG/WORD.png",
+        "h3": "WORD",
+        "alt": "Icone do WORD"
+    },
+    {
+        "imgSrc": "IMG/EXCEL.png",
+        "h3": "EXCEL",
+        "alt": "Icone do EXCEL"
+    },
+    {
+        "imgSrc": "IMG/PPTX.png",
+        "h3": "POWERPOINT",
+        "alt": "Icone do POWERPOINT"
+    },
+    {
+        "imgSrc": "IMG/MONTAGEM.png",
+        "h3": "MONTAGEM E MANUTENÇÃO PREVENTIVA DE COMPUTADORES",
+        "alt": "Icone de MONTAGEM E MANUTENÇÃO PREVENTIVA DE COMPUTADORES"
+    },
+    {
+        "imgSrc": "IMG/REDES.png",
+        "h3": "GERENCIAMENTO DO WINDOWS E REDES",
+        "alt": "Icone de GERENCIAMENTO DO WINDOWS E REDES"
+    },
+    {
+        "imgSrc": "IMG/FORMADO02.png",
+        "h3": "FORMADO EM SUPORTE TI",
+        "alt": "Icone de FORMADO EM SUPORTE TI"
+    },
+    {
+        "imgSrc": "IMG/ESPANHOL.png",
+        "h3": "INGLÊS BÁSICO",
+        "alt": "Icone de Inglês Básico"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "imgSrc": "IMG/2.png",
+        "github": "https://github.com/GuiCastro1/Fluxus",
+        "site": "https://guicastro1.github.io/Fluxus/",
+        "alt": "Projeto 2"
+    },
+    {
+        "imgSrc": "IMG/3.png",
+        "github": "https://github.com/GuiCastro1/Zendesk",
+        "site": "https://guicastro1.github.io/Zendesk/",
+        "alt": "Projeto 3"
+    },
+    {
+        "imgSrc": "IMG/1.png",
+        "github": "https://github.com/davilimav/TCC-IOS",
+        "site": "https://davilimav.github.io/TCC-IOS/",
+        "alt": "Projeto 1"
+    },
+    {
+        "imgSrc": "IMG/COPIAdacopiaRA.jpg",
+        "github": "#",
+        "site": "#",
+        "alt": "Projeto RA"
+    }
+]
