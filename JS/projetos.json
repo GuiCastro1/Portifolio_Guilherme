@@ -1,26 +1,37 @@
 [
     {
+        "h2": "Consultoria Digital",
         "imgSrc": "IMG/2.png",
         "github": "https://github.com/GuiCastro1/Fluxus",
         "site": "https://guicastro1.github.io/Fluxus/",
         "alt": "Projeto 2"
     },
     {
+        "h2": "Loja de Móveis",
         "imgSrc": "IMG/3.png",
         "github": "https://github.com/GuiCastro1/Zendesk",
         "site": "https://guicastro1.github.io/Zendesk/",
-        "alt": "Projeto 3"
-    },
-    {
-        "imgSrc": "IMG/1.png",
-        "github": "https://github.com/davilimav/TCC-IOS",
-        "site": "https://davilimav.github.io/TCC-IOS/",
         "alt": "Projeto 1"
     },
     {
-        "imgSrc": "IMG/COPIAdacopiaRA.jpg",
+        "h2": "Projeto do Meu Tcc",
+        "imgSrc": "IMG/1.png",
+        "github": "https://github.com/davilimav/TCC-IOS",
+        "site": "https://davilimav.github.io/TCC-IOS/",
+        "alt": "Projeto 3"
+    },
+    {
+        "h2": "Landing Page Tarantino",
+        "imgSrc": "IMG/4.png",
         "github": "#",
         "site": "#",
-        "alt": "Projeto RA"
+        "alt": "Projeto 4"
+    },
+    {
+        "h2": "Calculadora de Binários",
+        "imgSrc": "IMG/5.png",
+        "github": "https://github.com/GuiCastro1/CalculadoraDeBinarios",
+        "site": "https://guicastro1.github.io/CalculadoraDeBinarios/",
+        "alt": "Projeto 5"
     }
 ]

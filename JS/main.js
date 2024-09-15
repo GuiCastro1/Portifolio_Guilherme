@@ -44,9 +44,12 @@ fetch('JS/projetos.json')
     .then(projetos => {
         projetos.forEach(projeto => {
             // Cria a div.filho
-            const Items = document.createElement('div');
+            const Items = document.createElement('span');
             Items.classList.add('Items', 'border', 'TamanhoImg');
 
+            const titulo = document.createElement('h2');
+            titulo.id="Titulo"
+            titulo.textContent = projeto.h2;
             // Cria a imagem
             const img = document.createElement('img');
             img.src = projeto.imgSrc;
@@ -64,6 +67,7 @@ fetch('JS/projetos.json')
             siteLink.target = '_blank';
 
             // Adiciona a imagem e os links dentro da div.filho
+            Items.appendChild(titulo);
             Items.appendChild(img);
             Items.appendChild(gitHubLink);
             Items.appendChild(siteLink);
