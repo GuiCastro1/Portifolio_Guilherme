@@ -97,7 +97,7 @@ header {
 }
 
 .links {
-    height: 170vh;
+    height: 150vh;
     display: flex;
     padding: 50px;
     flex-direction: column;
@@ -172,15 +172,15 @@ header {
 }
 
 .Items {
-    height: 21rem;  
-    width: 15rem;
+    height: 23rem;  
+    width: 13rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
     /* 20px -> 1.25rem */
-    padding: 1.25rem;
+    padding: 2rem;
     /* 20px -> 1.25rem */
 }
 
