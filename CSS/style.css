@@ -23,9 +23,11 @@ h2 {
     color: var(--texto-rosa);
     margin-bottom: 1.25rem;
 }
-#BR{
+
+#BR {
     display: none;
 }
+
 body {
     background-color: var(--fundo-body);
 }
@@ -89,7 +91,7 @@ header {
 .links ul li {
     background-color: var(--fundo-lista);
     border-radius: 3.125rem;
-    padding: 1.25rem;
+    padding: 1rem;
     margin: 0.625rem 0;
     transition: transform 0.5s ease;
 }
@@ -153,9 +155,11 @@ header {
     gap: 1rem;
     padding: 1.5rem;
 }
-#Titulo{
+
+#Titulo {
     color: var(--display);
 }
+
 .Items a {
     color: var(--amarelo);
     font-size: 1.1875rem;
@@ -239,11 +243,23 @@ footer p {
     .teste {
         display: block;
     }
-.links{
-    height: 100vh;
-    flex-direction: row;
-    justify-content: space-evenly;
-    gap: 10%;
-}
-    
+
+    .links {
+        height: 100vh;
+        flex-direction: row;
+        justify-content: space-evenly;
+        /* gap:; */
+    }
+
+    .links ul {
+        margin-right: 10%;
+    }
+    .links ul li {
+        background-color: transparent;
+    }
+
+    .Cumputador {
+        padding-right: 10%;
+    }
+
 }
