@@ -4,16 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <script src="https://cdn.userway.org/widget.js" data-account="eusgFLG4Ph"></script>
+
     <link rel="shortcut icon" href="IMG/9196073.png" type="image/x-icon">
+
     <link rel="stylesheet" href="CSS/style.css">
+
     <title>Portifolio Guilherme Castro</title>
 </head>
 
 <body>
-    <header>
+    <header class="PlayGroudSection">
         <div data-aos="zoom-in-left">
             <h1 class="teste">
                 Seja Bem Vindo
@@ -21,35 +27,86 @@
             </h1>
         </div>
 
-        <div data-aos="zoom-in-right"><img src="IMG/MIB-removebg-preview.png" alt="foto de Guilherme Castro"
-                class="Foto"></div>
+        <div data-aos="zoom-in-right"><img src="IMG/MIB-removebg-preview.png" alt="foto de Guilherme Castro" class="Foto"></div>
 
-       
     </header>
     <main>
-        <section>
-        
-            <div id="content-container"></div>
-            
+        <section class="PlayGroudSection">
+          <div class="links">
+             
+                    <div>
+                        <h2 id="Cumputador">
+                            &#60; Sobre mim &#62;
+                        </h2>
+                      
+                        <p class="Cumputador">
+                            Olá, meu nome é Guilherme Castro. Sou formado em Desenvolvimento Web pelo Instituto da Oportunidade Social (IOS) e, atualmente, estou aprimorando meus conhecimentos em front-end, com foco em frameworks de JavaScript. Além disso, tenho a intenção de expandir minha expertise para o back-end, estudando linguagens como Python e C#.</p>
+                        </p>
+                    </div>
+                
+                <ul>
+                    <div data-aos="zoom-in">
+                        <li>
+                            <a href="https://github.com/GuiCastro1" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </li>
+                    </div>
+                    <div data-aos="zoom-in">
+                        <li>
+                            <a href="https://www.linkedin.com/in/guilherme-castro-gc" target="_blank">
+                                <i class="fab fa-linkedin"></i> LinkedIn
+                            </a>
+                        </li>
+                    </div>
+                    <div data-aos="zoom-in">
+                        <li>
+                            <a href="https://wa.me/5511951207636" target="_blank">
+                                <i class="fab fa-whatsapp"></i> WhatsApp
+                            </a>
+                        </li>
+                    </div>
+                    <div data-aos="zoom-in">
+                        <li>
+                            <a href="HTML/CURRICULO.html" target="_blank">
+                                <i class="fas fa-file-alt"></i> Currículo
+                            </a>
+                        </li>
+                    </div>
+                    <div data-aos="zoom-in">
+                        <li>
+                            <a href="mailto:gui.castro.0001.1426@gmail.com">
+                                <i class="fas fa-envelope"></i> Gmail
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+
         </section>
-        <section>
+        <section class="PlayGroudSection">
             <div>
-                <h2 id="TituloProjetos">
-                    &#60; Projetos &#62;
-                </h2>
+
+                <h2 id="TituloProjetos"> &#60; Projetos &#62; </h2>
+                
                 <div data-aos="fade-right" class="Trabalhos"> </div>
 
         </section>
-        <section>
-            <h2 id="TituloCompetencias">
-                &#60; Competencias &#62;
-            </h2>
+        <section class="PlayGroudSection">
+
+            <h2 id="TituloCompetencias"> &#60; Competencias &#62;</h2>
+
             <div data-aos="fade-down" class="competencias"></div>
 
         </section>
-        <section>
+        <section class="PlayGroudContainer">
             <h2> &#60; PlayGroud &#62;</h2>
-
+            <div class="PlayGroud">
+                <button id="JogoK&C">Kara Ou Coroa</button>
+                <button>Roleta</button>
+                <button>Jogo da Velha</button>
+                <button>Dino Web</button>              
+            </div>
         </section>
     </main>
 
@@ -65,17 +122,16 @@
         </div>
     </div>
     <script src="JS/Vlibras.js"></script>
-    <!-- <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script> -->
-    <script>
-        new window.VLibras.Widget('https://vlibras.gov.br/app');
-    </script>
+    
+    <script> new window.VLibras.Widget('https://vlibras.gov.br/app'); </script>
 
     <script src="JS/main.js"></script>
+
+    <script src="JS/MainPlayGround.js"></script>
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init(
-            { duration: 1900, });
-    </script>
+
+    <script> AOS.init({ duration: 1900, });</script>
 
 </body>
 

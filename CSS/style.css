@@ -24,10 +24,6 @@ h2 {
     margin-bottom: 1.25rem;
 }
 
-#BR {
-    display: none;
-}
-
 body {
     background-color: var(--fundo-body);
 }
@@ -68,17 +64,16 @@ header {
 }
 
 .Cumputador {
-    margin: 0%;
+    padding: 5%;
     color: var(--funcoes);
     font-size: 20px;
-    text-align: justify;
     margin-bottom: 50px;
+    text-align: justify;
 }
 
 .links {
     height: 150vh;
     display: flex;
-    padding: 100px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -223,6 +218,18 @@ header {
     height: 90px;
 }
 
+.PlayGroud{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+.PlayGroud button{
+    height: 70px;
+    width: 140px;
+}
+
 footer {
     text-align: center;
     margin-top: 1.25rem;
@@ -246,20 +253,30 @@ footer p {
 
     .links {
         height: 100vh;
-        flex-direction: row;
-        justify-content: space-evenly;
-        /* gap:; */
+        flex-direction: column;
+        justify-content: center;
+        gap: 0px;
     }
 
     .links ul {
-        margin-right: 10%;
-    }
-    .links ul li {
-        background-color: transparent;
+        display: flex;
+        gap: 20px;
     }
 
     .Cumputador {
-        padding-right: 10%;
+        font-size: 22px;
+        text-align: justify;
+        margin-bottom: 1px;
+        padding-right: 5%;
+        padding-left: 5%;
     }
 
+    .PlayGroud{
+        flex-direction: row; 
+    }
+
+    .PlayGroud button{
+      height: 100px;
+      width: 200px;
+    }
 }
