@@ -57,6 +57,7 @@ header {
     width: 300px;
     border-radius: 0.625rem 1.25rem;
     border: 0.125rem solid var(--b);
+    object-fit: cover;
 }
 
 .LEGENDA {
